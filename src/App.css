@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.mood-picker {
+  margin: 20px 0;
+}
+
+.mood-picker button {
+  margin: 5px;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  transition: 0.2s;
+}
+
+.mood-picker button:hover {
+  background-color: #666;
+}
+
+.App {
+  padding: 40px;
+}
