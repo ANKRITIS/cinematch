@@ -43,6 +43,7 @@ function App() {
         <button onClick={() => setGenre("35")}>🤡 Silly</button>
       </div>
 
+{//*  Display popular movies*//}
 
 
       {/* Genre Dropdown */}
