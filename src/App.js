@@ -46,7 +46,7 @@ function App() {
 
 
 
-      {/* Display Genre Dropdown */}
+      {/* Display Genres Dropdown */}
       <select onChange={(e) =>  setGenre(e.target.value)}>
         <option value="">-- Select Genre --</option>
         <option value="28">Action</option>
