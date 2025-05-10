@@ -43,10 +43,10 @@ function App() {
         <button onClick={() => setGenre("35")}>🤡 Silly</button>
       </div>
 
-{//*  Display popular movies*//}
 
 
-      {/* Genre Dropdown */}
+
+      {/* Display Genre Dropdown */}
       <select onChange={(e) =>  setGenre(e.target.value)}>
         <option value="">-- Select Genre --</option>
         <option value="28">Action</option>
