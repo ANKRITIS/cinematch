@@ -58,7 +58,7 @@ function App() {
         <option value="878">Sci-Fi</option>
       </select>
 
-      {/* Movie Cards */}
+      {/* Movie Display */}
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {movies.map((movie) => (
           <div key={movie.id} style={{ margin: '10px', width: '200px' }}>
