@@ -35,6 +35,7 @@ function App() {
       <h1>CineMatch 🎬</h1>
       <p>Popular Movies:</p>
 
+{/* Display Mood Picker */}
       <div className="mood-picker">
         <button onClick={() => setGenre("18")}>😢 Sad</button>
         <button onClick={() => setGenre("53")}>😎 Bored</button>
