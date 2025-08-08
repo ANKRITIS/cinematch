@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 🎬 CineMatch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CineMatch is a smart, user-friendly movie recommendation web app built using React. It helps users discover trending movies based on genres, moods, and custom search queries using real-time data from the TMDB API.
+---
 
-## Available Scripts
+## 🌟 What CineMatch Does
 
-In the project directory, you can run:
+- 🔥 **Shows Popular Movies:** Displays trending films fetched from the TMDB API on app load.
+- 🔍 **Search by Movie Title:** Type a movie name and get matching results instantly.
+- 🎭 **Filter by Genre:** Choose from a list of genres to narrow down recommendations.
+- 😊 **Mood-Based Discovery:** Select a mood (e.g., Happy, Sad, Romantic) and get mood-matching movie suggestions.
+- 📱 **Responsive UI:** Built with mobile-first design for smooth use across devices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React (with hooks), JavaScript, HTML5, CSS3
+- **API**: [The Movie Database (TMDB)](https://www.themoviedb.org/) API
+- **HTTP Client**: Axios
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚧 Features in Progress / To Be Added
 
-### `npm run build`
+- 💾 **Watchlist Feature:** Allow users to save movies to their personal watchlist (localStorage or Firebase)
+- 🌙 **Dark Mode Toggle**
+- 📽️ **Movie Trailers Integration** via YouTube/TMDB
+- 🗣️ **User Ratings and Reviews**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
