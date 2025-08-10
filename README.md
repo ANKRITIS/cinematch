@@ -12,12 +12,13 @@ It helps users discover movies in multiple ways — by genre, mood, search, or p
 - 📱 **Responsive UI:** Built with mobile-first design for smooth use across devices.
 - 🤖  **ML-Powered Recommendations:** Recommend movies for a given MovieLens user ID.
 ---
+## 🛠 Built with
 
-## 🛠️ Built With
-**Frontend:** React (with hooks), JavaScript, HTML5, CSS3  
-**Backend:** FastAPI, Python, Pandas, scikit-learn (Truncated SVD), Uvicorn  
-**APIs:** The Movie Database (TMDB) API, MovieLens dataset  
-**HTTP Client:** Axios  
+- **Frontend:** React (hooks), JavaScript, HTML5, CSS3
+- **Backend:** FastAPI, Python, Pandas, scikit-learn (Truncated SVD), Uvicorn
+- **APIs:** TMDB API, MovieLens dataset
+- **HTTP client:** Axios
+
 ---
 
 ## 🚧 Features in Progress / To Be Added
