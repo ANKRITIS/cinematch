@@ -1,7 +1,7 @@
 # 🎬 CineMatch
 
-CineMatch is a smart, user-friendly movie recommendation web app built using React. It helps users discover trending movies based on genres, moods, and custom search queries using real-time data from the TMDB API.
----
+**CineMatch is a smart, user-friendly movie recommendation web app built with React and powered by a FastAPI + Python machine learning backend.
+It helps users discover movies in multiple ways — by genre, mood, search, or personalized recommendations generated from the MovieLens dataset — all enriched with real-time data from the TMDB API.**
 
 ## 🌟 What CineMatch Does
 
@@ -10,15 +10,14 @@ CineMatch is a smart, user-friendly movie recommendation web app built using Rea
 - 🎭 **Filter by Genre:** Choose from a list of genres to narrow down recommendations.
 - 😊 **Mood-Based Discovery:** Select a mood (e.g., Happy, Sad, Romantic) and get mood-matching movie suggestions.
 - 📱 **Responsive UI:** Built with mobile-first design for smooth use across devices.
-
+- 🤖  **ML-Powered Recommendations:** Recommend movies for a given MovieLens user ID.
 ---
 
 ## 🛠️ Built With
-
-- **Frontend**: React (with hooks), JavaScript, HTML5, CSS3
-- **API**: [The Movie Database (TMDB)](https://www.themoviedb.org/) API
-- **HTTP Client**: Axios
-
+**Frontend:** React (with hooks), JavaScript, HTML5, CSS3  
+**Backend:** FastAPI, Python, Pandas, scikit-learn (Truncated SVD), Uvicorn  
+**APIs:** The Movie Database (TMDB) API, MovieLens dataset  
+**HTTP Client:** Axios  
 ---
 
 ## 🚧 Features in Progress / To Be Added
