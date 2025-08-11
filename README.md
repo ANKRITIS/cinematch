@@ -14,7 +14,7 @@ It helps users discover movies in multiple ways — by genre, mood, search, or p
 ---
 ## 🛠 Built with
 
-- **Frontend:** React (hooks), JavaScript, HTML5, CSS3
+- **Frontend:** React, JavaScript, HTML, CSS
 - **Backend:** FastAPI, Python, Pandas, scikit-learn (Truncated SVD), Uvicorn
 - **APIs:** TMDB API, MovieLens dataset
 - **HTTP client:** Axios
